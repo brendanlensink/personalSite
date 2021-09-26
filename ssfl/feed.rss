@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The SSFL Podcast</title>
+    <link>https://brendanlensink.com/ssfl</link>
+    <language>en-us</language>
+    <copyright>&#169; 2021 SSFL</copyright>
+    <itunes:author>SSFL</itunes:author>
+    <description>
+      Current events, hot takes and everything in between from the SSFL.
+    </description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Brendan Lensink</itunes:name>
+      <itunes:email>blensink192@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image
+      href=""
+    />
+    <itunes:category text="Sports">
+    </itunes:category>
+    <itunes:category text="Sports">
+      <itunes:category text="Sports" />
+    </itunes:category>
+    <itunes:explicit>true</itunes:explicit>
+    
+          
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>1</itunes:episode>
+        <title>September 26, 2021: Welcome Back</title>
+        <description>
+          The boys are back. Kevin, Erik, Justin and Brendan recap the 2021 draft and first couple weeks of the season, then look forward to week 3. </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl260921.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl260921.mp3</guid>
+        <pubDate>Sun, 26 Sept 2021 18:10:57 -0500</pubDate>
+        <itunes:duration>1965</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
+    
+  </channel>
+</rss>
