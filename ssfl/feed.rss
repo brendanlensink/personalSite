@@ -39,7 +39,7 @@
         <itunes:duration>1965</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
-          <item>
+      <item>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>2</itunes:episode>
         <title>October 3, 2021: Matt Ryan ist wunderbar</title>
@@ -53,6 +53,22 @@
         <guid>https://brendanlensink.com/ssfl/ssfl031021.mp3</guid>
         <pubDate>Sun, 03 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3567</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>3</itunes:episode>
+        <title>October 7, 2021: Cordarrelle Patterson Support Group</title>
+        <description>
+          Erik, Kevin and Tony join Brendan for a special after dark edition of the SSFL podcast. Kevin's in a dark place, Brendan makes the case for QBs and Erik and Tony discuss which number in the slimmest. </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl071021.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl071021.mp3</guid>
+        <pubDate>Sun, 07 Oct 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3661</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
   </channel>
