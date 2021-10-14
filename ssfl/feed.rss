@@ -71,5 +71,21 @@
         <itunes:duration>3661</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>4</itunes:episode>
+        <title>October 14, 2021: Remember to Close the Gates</title>
+        <description>
+          Brendan and Erik take a little trip down Memory Lane. Kevin doubles down on emotional daggers, and Tony hardly even mentions he's 5-0. </description>
+        <enclosure
+          length="2572" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl131021.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl131021.mp3</guid>
+        <pubDate>Wed, 13 Oct 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>2572</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
