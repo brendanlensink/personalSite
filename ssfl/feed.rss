@@ -20,7 +20,7 @@
     <itunes:category text="Sports">
     </itunes:category>
     <itunes:category text="Sports">
-      <itunes:category text="Sports" />
+      <itunes:category text="Fantasy Sports" />
     </itunes:category>
     <itunes:explicit>true</itunes:explicit>   
       <item>
@@ -78,7 +78,7 @@
         <description>
           Brendan and Erik take a little trip down Memory Lane. Kevin doubles down on emotional daggers, and Tony hardly even mentions he's 5-0. </description>
         <enclosure
-          length="2572" 
+          length="47191271" 
           type="audio/mpeg" 
           url="https://brendanlensink.com/ssfl/ssfl131021.mp3"
         />
@@ -94,11 +94,11 @@
         <description>
           Tony mentions he's 5-0 and currently blasting Erik at least once, Kevin's just asking the question and Justin makes a special appearance to talk about feelings. The boys mourn the loss of the Sundowner.</description>
         <enclosure
-          length="3339" 
+          length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl131021.mp3"
+          url="https://brendanlensink.com/ssfl/ssfl171021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl131021.mp3</guid>
+        <guid>https://brendanlensink.com/ssfl/ssfl171021.mp3</guid>
         <pubDate>Sun, 17 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3339</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
