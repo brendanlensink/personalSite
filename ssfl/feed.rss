@@ -87,5 +87,21 @@
         <itunes:duration>2572</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>5</itunes:episode>
+        <title>October 17, 2021: The One True Herbert</title>
+        <description>
+          Tony mentions he's 5-0 and currently blasting Erik at least once, Kevin's just asking the question and Justin makes a special appearance to talk about feelings. The boys mourn the loss of the Sundowner.</description>
+        <enclosure
+          length="3339" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl131021.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl131021.mp3</guid>
+        <pubDate>Sun, 17 Oct 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3339</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
