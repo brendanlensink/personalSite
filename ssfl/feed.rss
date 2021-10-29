@@ -119,5 +119,21 @@
         <itunes:duration>3320</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+            <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>7</itunes:episode>
+        <title>October 27, 2021: Four Muscular Men</title>
+        <description>
+          Erik and Tony has some scary stories to tell in the dark. Kevin's back at it with another shotgun bet, and Brendan takes a look at the best (and worst) franchsises in the SSFL.</description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl281021.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl281021.mp3</guid>
+        <pubDate>Wed, 27 Oct 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3320</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
