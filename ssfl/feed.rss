@@ -135,5 +135,21 @@
         <itunes:duration>3320</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>7</itunes:episode>
+        <title>November 3, 2021: The NFL is the best reality TV</title>
+        <description>
+          Erik cracks the Chief's offence, Tony continues his reign as league heel, and Kevin's obsession with Russ continues. Brendan hosts a little bad QB draft for week 9 and everyone discusses all the drama happening in the NFL and inside the SSFL.</description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl031121.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl031121.mp3</guid>
+        <pubDate>Wed, 03 Nov 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
