@@ -151,5 +151,21 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>7</itunes:episode>
+        <title>November 10, 2021: The Full Prescott</title>
+        <description>
+          Erik's got a hot take on offensive penalties, Tony is in mourning, but it's totally fine and not at all indicative of things to come. Brendan doesn't know how to pick running backs, and Kevin's got no Love for it.</description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl101121.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl101121.mp3</guid>
+        <pubDate>Wed, 10 Nov 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
