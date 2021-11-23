@@ -167,5 +167,21 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+            <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>7</itunes:episode>
+        <title>November 18, 2021: Overall Dickery </title>
+        <description>
+          Kevin just can't let go of Russ, Erik's got some more spicy ideas to change up the league. Brendan and Tony break down their big pre-deadline trades and the boys start to dive into who's got a hope for playoffs and who will be duking it out for the Pronley.</description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl181121.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl181121.mp3</guid>
+        <pubDate>Wed, 18 Nov 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
