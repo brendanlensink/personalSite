@@ -183,5 +183,22 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>9</itunes:episode>
+        <title>December 5, 2021: Because Kenny Asked For It</title>
+        <description>
+          Erik and Brendan pick up the slack for a very hungover Kevin and absentee Tony. They go over some playoff prospects and the matches for this week. Also shotgun bets, lots of shotgun bets.
+        </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.com/ssfl/ssfl051221.mp3"
+        />
+        <guid>https://brendanlensink.com/ssfl/ssfl051221.mp3</guid>
+        <pubDate>Sun, 05 Dec 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
