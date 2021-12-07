@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>The SSFL Podcast</title>
-    <link>https://brendanlensink.com/ssfl</link>
+    <link>https://brendanlensink.netlify.app/ssfl</link>
     <language>en-us</language>
     <copyright>&#169; 2021 SSFL</copyright>
     <itunes:author>SSFL</itunes:author>
@@ -15,7 +15,7 @@
       <itunes:email>blensink192@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image
-      href="https://brendanlensink.com/ssfl/banner.png"
+      href="https://brendanlensink.netlify.app/ssfl/banner.png"
     />
     <itunes:category text="Sports">
     </itunes:category>
@@ -32,9 +32,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl260921.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl260921.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl260921.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl260921.mp3</guid>
         <pubDate>Sun, 26 Sep 2021 18:10:57 -0800</pubDate>
         <itunes:duration>1965</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -48,9 +48,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl031021.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl031021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl031021.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl031021.mp3</guid>
         <pubDate>Sun, 03 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3567</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -64,9 +64,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl071021.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl071021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl071021.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl071021.mp3</guid>
         <pubDate>Sun, 07 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3661</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -80,9 +80,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl131021.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl131021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl131021.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl131021.mp3</guid>
         <pubDate>Wed, 13 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>2572</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -96,9 +96,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl171021.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl171021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl171021.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl171021.mp3</guid>
         <pubDate>Sun, 17 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3339</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -112,9 +112,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl201021.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl201021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl201021.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl201021.mp3</guid>
         <pubDate>Wed, 20 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3320</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -128,9 +128,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl281021.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl281021.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl281021.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl281021.mp3</guid>
         <pubDate>Wed, 27 Oct 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3320</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -144,9 +144,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl031121.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl031121.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl031121.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl031121.mp3</guid>
         <pubDate>Wed, 03 Nov 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -160,9 +160,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl101121.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl101121.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl101121.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl101121.mp3</guid>
         <pubDate>Wed, 10 Nov 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -176,9 +176,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl181121.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl181121.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl181121.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl181121.mp3</guid>
         <pubDate>Wed, 18 Nov 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
@@ -193,9 +193,9 @@
         <enclosure
           length="47191271" 
           type="audio/mpeg" 
-          url="https://brendanlensink.com/ssfl/ssfl051221.mp3"
+          url="https://brendanlensink.netlify.app/ssfl/ssfl051221.mp3"
         />
-        <guid>https://brendanlensink.com/ssfl/ssfl051221.mp3</guid>
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl051221.mp3</guid>
         <pubDate>Sun, 05 Dec 2021 18:10:57 -0800</pubDate>
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
