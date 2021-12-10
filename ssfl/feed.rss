@@ -200,5 +200,22 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>10</itunes:episode>
+        <title>December 9, 2021: High Content Equity</title>
+        <description>
+          For the first time this season, the boys get a very special guest caller, here to check receipts. Erik breaks down everyone's playoff (and Pronley) prospects. Tony's praying for Kyle to start a QB, and Brendan's playing rock, paper, scissors or something.
+        </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.netlify.app/ssfl/ssfl091221.mp3"
+        />
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl091221.mp3</guid>
+        <pubDate>Wed, 09 Dec 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
