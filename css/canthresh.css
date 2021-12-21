@@ -1,0 +1,37 @@
+.head {
+  height:  150px;
+}
+
+.jeff {
+  background-color: #FCA5A5;
+}
+
+.quinn {
+  background-color: #2DD4BF;
+}
+
+.mcbain {
+  background-color: #A78BFA;
+}
+
+.tag {
+  color:  black;
+  font-size:  16px;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 1000;
+
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+
+  position: absolute;
+  left: 0px;
+  top:  140px;
+}
