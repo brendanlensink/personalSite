@@ -17,12 +17,11 @@
 
     <!-- Bootstrap + Normalize -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/canthresh.css">
-
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
     <!-- Precompile LESS -->
     <link rel="stylesheet/less" type="text/css" href="css/home.less" />
+    <link rel="stylesheet" href="css/canthresh.css">
     <script src="js/less.min.js" type="text/javascript"></script>
 
     <!-- Custom Fonts -->
@@ -31,32 +30,51 @@
     <script src="js/canthresh.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="head-container">
-      <img class="head" src="canthresh/jeff_up.png" id="baby" onclick="tap(this)"><span class="tag jeff">Ooh Baby</span></img>
-    </div>
-    
-    <div class="head-container">
-      <img class="head" src="canthresh/jeff_up.png" id="boo" onclick="tap(this)"><span class="tag jeff">Boo</span></img>
-    </div>   
-    
-    <div class="head-container">
-      <img class="head" src="canthresh/quinn_up.png" id="comrade" onclick="tap(this)"><span class="tag quinn">Comrade Dylan</span></img>
-    </div> 
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="head-container col">
+          <img class="head" src="canthresh/mcbain_up.png" id="tombstalker" onclick="tap(this)"></img>
+          <p class="tag mcbain">Tombstalker</p>
+        </div>  
+        <div class="head-container col">
+          <img class="head" src="canthresh/jeff_up.png" id="boo" onclick="tap(this)"></img>
+          <p class="tag jeff">Boo</p>
+        </div>   
+        <div class="col">
+        </div>
+      </div>
 
-    <div class="head-container">
-      <img class="head" src="canthresh/quinn_up.png" id="gas" onclick="tap(this)"><span class="tag quinn">That's Gas</span></img>
-    </div>    
+      <div class="row">
+        <div class="col">
+          <img class="head" src="canthresh/quinn_up.png" id="gas" onclick="tap(this)"></img>
+          <p class="tag quinn">That's Gas</p>
+        </div>    
+        <div class="col">
+          <img class="head" src="canthresh/mcbain_up.png" id="noobs" onclick="tap(this)"></img>
+          <p class="tag mcbain">Noobs</p>
+        </div>    
+        <div class="col">
+          <img class="head" src="canthresh/quinn_up.png" id="reference" onclick="tap(this)"></img>
+          <p class="tag quinn">References</p>
+        </div>   
+      </div>
 
-    <div class="head-container">
-      <img class="head" src="canthresh/mcbain_up.png" id="noobs" onclick="tap(this)"><span class="tag mcbain">Noobs</span></img>
-    </div>    
-
-    <div class="head-container">
-      <img class="head" src="canthresh/quinn_up.png" id="reference" onclick="tap(this)"><span class="tag quinn">References</span></img>
-    </div>    
-
-    <div class="head-container">
-      <img class="head" src="canthresh/mcbain_up.png" id="tombstalker" onclick="tap(this)"><span class="tag mcbain">Tombstalker</span></img>
-    </div>       
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="head-container col">
+          <img class="head" src="canthresh/jeff_up.png" id="baby" onclick="tap(this)"></img>
+          <p class="tag jeff">Ooh Baby</p>
+        </div>
+        <div class="head-container col-4">
+          <img class="head" src="canthresh/quinn_up.png" id="comrade" onclick="tap(this)"></img>
+          <p class="tag quinn">Comrade Dylan</p>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>     
   </body>
 </html>
