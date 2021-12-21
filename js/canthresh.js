@@ -1,7 +1,5 @@
 window.onload = (event) => {
   const containers = document.getElementsByClassName("head-container")
-  console.log(containers)
-  console.log(window.innerHeight, window.innerWidth)
 
   let positions = []
   for (const container of containers) {
@@ -19,7 +17,7 @@ function tap(img) {
 
   setTimeout(function() {
       img.src = img.src.replace("down", "up")
-  }, 150);
+  }, 250);
   
   let audio = new Audio(`canthresh/${img.id}.mp3`);
   audio.play();
@@ -43,7 +41,6 @@ function getRandom(positions) {
       return (getRandom(positions))
     }
   }
-  console.log(left, bottom)
 
   return [left, bottom]
 }
