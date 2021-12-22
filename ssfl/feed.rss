@@ -217,5 +217,22 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>11</itunes:episode>
+        <title>December 17, 2021: SSFL: Into the Multiverse</title>
+        <description>
+          The gang's all here to break down the first round of the playoffs. Erik's got receipts. Erik goes above and beyond and delves into what could have been. Erik carries the pod, mostly. The boys discuss Kenny's hubris and eventual downfall. 
+        </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.netlify.app/ssfl/ssfl171221.mp3"
+        />
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl171221.mp3</guid>
+        <pubDate>Fri, 17 Dec 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
