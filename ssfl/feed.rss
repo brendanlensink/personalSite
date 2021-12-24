@@ -234,5 +234,22 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+      <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>12</itunes:episode>
+        <title>December 21, 2021: The Best Team and Person in SSFL History</title>
+        <description>
+          "I'm the best human being in SSFL history to not make playoffs" - Kenny Welsh, probably
+        </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.netlify.app/ssfl/ssfl221221.mp3"
+        />
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl221221.mp3</guid>
+        <pubDate>Wed, 22 Dec 2021 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
