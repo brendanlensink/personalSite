@@ -1,0 +1,86 @@
+body {
+    background-color: #dddfd4;
+    color: #173e43;
+    font-size: 20px;
+}
+
+a {
+    color: #3fb0ac;
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.header-title-container {
+    margin-top: 30%;
+    margin-bottom: 40%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header-title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 80px;
+    height: 150px;
+}
+
+.header-body {
+    max-width: 700px;
+    text-align: left;
+    color: #173e43;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.song-list {
+    max-width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.song-link {
+}
+.album-container {
+    width: 50%;
+    min-width: 600px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album-bottom {
+    margin-bottom: 150px;
+}
+
+.album-number {
+    color: #fae596;
+    font-size: 150px;
+    letter-spacing: -15px;
+    filter: drop-shadow(6px 6px 6px #68a8af);
+}
+
+.album-title {
+    text-align: center;
+}
+
+.top-10-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    filter: drop-shadow(6px 6px 6px #68a8af);
+}
+
+.track-link {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
