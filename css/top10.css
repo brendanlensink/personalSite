@@ -9,8 +9,11 @@ a {
 }
 
 .header-container {
+    max-width: 700px;
     text-align: center;
     margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-title-container {
@@ -21,10 +24,8 @@ a {
 }
 
 .header-title {
-    padding-top: 30px;
     text-align: center;
     font-size: 80px;
-    height: 150px;
 }
 
 .header-body {
@@ -45,10 +46,10 @@ a {
 
 .song-link {
 }
+
 .album-container {
-    width: 50%;
-    min-width: 600px;
     display: block;
+    max-width: 600px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -67,6 +68,7 @@ a {
 
 .album-title {
     text-align: center;
+    margin-top: 20px;
 }
 
 .top-10-img {
@@ -74,6 +76,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
+    max-width: 500px;
     filter: drop-shadow(6px 6px 6px #68a8af);
 }
 
