@@ -251,5 +251,22 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+            <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>13</itunes:episode>
+        <title>January 1, 2022: It's the Final Countdown</title>
+        <description>
+          Kevin's starting a war on Christmas, Tony thinks he's the Aaron Rodgers of the SSFL, but actually vaccinated. Erik's sweating a Pronley.
+        </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.netlify.app/ssfl/ssfl010122.mp3"
+        />
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl010122.mp3</guid>
+        <pubDate>Sat, 01 Jan 2022 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
