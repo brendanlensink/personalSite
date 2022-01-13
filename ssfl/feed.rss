@@ -268,5 +268,22 @@
         <itunes:duration>3620</itunes:duration>
         <itunes:explicit>true</itunes:explicit>
       </item>
+       <item>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:episode>13</itunes:episode>
+        <title>January 12, 2022: And The Award Goes To....</title>
+        <description>
+          The 2021 SSFL award nominees are in, and the Academy has voted. Erik recaps what it probably the most exciting Pronley in SSFL history, and takes a look forward at the 2022 draft. Oh, and I guess something good happened for Tony or something.
+        </description>
+        <enclosure
+          length="47191271" 
+          type="audio/mpeg" 
+          url="https://brendanlensink.netlify.app/ssfl/ssfl120122.mp3"
+        />
+        <guid>https://brendanlensink.netlify.app/ssfl/ssfl120122.mp3</guid>
+        <pubDate>Wed, 12 Jan 2022 18:10:57 -0800</pubDate>
+        <itunes:duration>3620</itunes:duration>
+        <itunes:explicit>true</itunes:explicit>
+      </item>
   </channel>
 </rss>
