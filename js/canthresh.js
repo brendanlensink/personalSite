@@ -17,6 +17,6 @@ function actually(img) {
   }, 250);
   
   const options = ["jeff_dragons.mp3", "jeff_loch.mp3"]
-  let audio = new Audio(`canthresh/${options[Math.floor(Math.random()*items.length)]}.mp3`);
+  let audio = new Audio(`canthresh/${options[Math.floor(Math.random()*options.length)]}.mp3`);
   audio.play();
 }
