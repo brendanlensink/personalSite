@@ -1,0 +1,112 @@
+@text-emphasis: #e2e8f0;
+@text: #cbd5e1;
+@text-detail: #94a3b8;
+@theme-primary: #06b6d4;
+
+.container {
+  max-width: 730px;
+  min-width: 320px;
+  margin: 0px auto;
+  padding: 0 2em 2em 2em;
+}
+
+.top10-container {
+  padding-top: 15%;
+  padding-bottom: 100px;
+}
+
+.top10-big-header {
+  font-size: 72px;
+  line-height: 1.1em;
+}
+
+.top10-subtitle {
+  padding-top: 25%;
+  padding-bottom: 10%;
+
+  color: @text-emphasis;
+  font-size: 48px;
+  line-height: 1.1em;
+}
+
+.top10-intro-blurb {
+  text-align: left;
+  max-width: 900px;
+}
+
+.top10-link {
+  text-decoration: underline;
+}
+
+.album-container {
+  padding-top: 100px;
+  gap: 30px;
+}
+
+.album-header-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.album-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  max-width: 500px;
+  filter: drop-shadow(4px 4px 6px #25272b);
+}
+
+.album-number {
+  color: @text-emphasis;
+
+  display: block;
+  font-size: 200px;
+
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.album-title-container {
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.album-title {
+  color: @text-emphasis;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.album-genre {
+  color: @text-detail;
+}
+
+.album-link {
+  padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .album-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .album-blurb {
+    margin: 0px auto;
+    text-align: left;
+  }
+
+  .album-img {
+    width: 95%;
+  }
+
+  .album-number {
+    font-size: 100px;
+  }
+}
