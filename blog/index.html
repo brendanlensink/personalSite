@@ -12,8 +12,10 @@ show_post_header: false
     <time class="post-list-date" datetime="{{ post.date | date_to_xmlschema }}">
       {{ post.date | date: "%B %d, %Y" }}
     </time>
-    <a class="post-list-link" href="{{ post.url }}">{{ post.title }}</a>
-    <a class="post-list-excerpt" href="{{ post.url }}">{{ post.excerpt | strip_html }}</a>
+    <a class="post-list-content" href="{{ post.url }}">
+      <span class="post-list-link">{{ post.title }}</span>
+      <span class="post-list-excerpt">{{ post.excerpt | strip_html }}</span>
+    </a>
   </li>
   {% endfor %}
 </ul>

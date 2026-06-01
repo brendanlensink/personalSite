@@ -147,27 +147,27 @@ article hr {
   margin-bottom: 0.2em;
 }
 
-.post-list-link {
-  color: var(--text-emphasis);
+.post-list-content {
+  display: block;
   text-decoration: none;
-  font-size: 1.1em;
 }
 
-.post-list-link:hover {
+.post-list-content:hover .post-list-link,
+.post-list-content:hover .post-list-excerpt {
   color: var(--theme-primary);
+}
+
+.post-list-link {
+  color: var(--text-emphasis);
+  font-size: 1.1em;
 }
 
 .post-list-excerpt {
   display: block;
   color: var(--text);
-  text-decoration: none;
   font-size: 0.9em;
   margin: 0.4em 0 0;
   line-height: 1.5;
-}
-
-.post-list-excerpt:hover {
-  color: var(--theme-primary);
 }
 
 .pagination {
