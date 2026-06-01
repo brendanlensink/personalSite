@@ -1,0 +1,39 @@
+---
+layout: blog
+title: Blog
+show_post_header: false
+---
+
+<h1>Blog</h1>
+
+<ul class="post-list">
+  {% for post in paginator.posts %}
+  <li class="post-list-item">
+    <time class="post-list-date" datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%B %d, %Y" }}
+    </time>
+    <a class="post-list-content" href="{{ post.url }}">
+      <span class="post-list-link">{{ post.title }}</span>
+      <span class="post-list-excerpt">{{ post.excerpt | strip_html }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" aria-label="Blog pagination">
+  {% if paginator.previous_page %}
+  <a class="pagination-link" href="{{ paginator.previous_page_path }}">&larr; Newer</a>
+  {% else %}
+  <span class="pagination-link pagination-disabled">&larr; Newer</span>
+  {% endif %}
+
+  <span class="pagination-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+  <a class="pagination-link" href="{{ paginator.next_page_path }}">Older &rarr;</a>
+  {% else %}
+  <span class="pagination-link pagination-disabled">Older &rarr;</span>
+  {% endif %}
+</nav>
+{% endif %}

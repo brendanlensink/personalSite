@@ -1,1 +1,16 @@
 permalink: /:title:output_ext
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: blog
+      permalink: /blog/:title
+      show_post_header: true
