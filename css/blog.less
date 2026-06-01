@@ -32,7 +32,7 @@
 
 .post-title {
   font-size: 2em;
-  line-height: 1.2;
+  line-height: 1.8em;
   margin: 0 0 0.25em;
 }
 
@@ -117,6 +117,41 @@ article {
     border: none;
     border-top: 1px solid @text-detail;
     margin: 2em 0;
+  }
+}
+
+.post-image {
+  margin: 1.5em 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  figcaption {
+    color: @text-detail;
+    font-size: 0.85em;
+    margin-top: 0.25em;
+    text-align: center;
+  }
+}
+
+.post-image-row {
+  display: flex;
+  gap: 1em;
+  margin: 1.5em 0;
+
+  .post-image {
+    flex: 1;
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .post-image-row {
+    flex-direction: column;
   }
 }
 
