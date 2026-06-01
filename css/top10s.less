@@ -1,8 +1,3 @@
-@text-emphasis: #e2e8f0;
-@text: #cbd5e1;
-@text-detail: #94a3b8;
-@theme-primary: #06b6d4;
-
 .container {
   max-width: 730px;
   min-width: 320px;
@@ -10,12 +5,20 @@
   padding: 0 2em 2em 2em;
 }
 
-.home-link {
-  margin-top: 10px;
+.top10-nav {
+  padding: 1em 0;
+
+  a {
+    color: var(--text-detail);
+    &:hover {
+      color: var(--theme-primary);
+    }
+  }
 }
 
-.header-link-em {
-  font-weight: 600;
+.top10-nav-sep {
+  margin: 0 0.4em;
+  color: var(--text-detail);
 }
 
 .top10-container {
@@ -32,7 +35,7 @@
   padding-top: 25%;
   padding-bottom: 10%;
 
-  color: @text-emphasis;
+  color: var(--text-emphasis);
   font-size: 48px;
   line-height: 1.1em;
 }
@@ -63,11 +66,11 @@
   margin-right: auto;
   border-radius: 8px;
   max-width: 500px;
-  filter: drop-shadow(4px 4px 6px #25272b);
+  filter: drop-shadow(4px 4px 6px var(--album-shadow));
 }
 
 .album-number {
-  color: @text-emphasis;
+  color: var(--text-emphasis);
 
   display: block;
   font-size: 200px;
@@ -85,13 +88,13 @@
 }
 
 .album-title {
-  color: @text-emphasis;
+  color: var(--text-emphasis);
   font-weight: 700;
   font-size: 24px;
 }
 
 .album-genre {
-  color: @text-detail;
+  color: var(--text-detail);
 }
 
 .album-link {

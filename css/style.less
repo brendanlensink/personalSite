@@ -1,25 +1,37 @@
-@text-emphasis: #e2e8f0;
-@text: #cbd5e1;
-@text-detail: #94a3b8;
-@theme-primary: #06b6d4;
+:root {
+  --text-emphasis: #e2e8f0;
+  --text: #cbd5e1;
+  --text-detail: #94a3b8;
+  --theme-primary: #06b6d4;
+  --bg-gradient-start: #762690;
+  --bg-gradient-mid: #4f2f69;
+  --bg-gradient-end: #1e5f8c;
+  --code-bg: rgba(0, 0, 0, 0.3);
+  --album-shadow: #25272b;
+  --list-border: rgba(148, 163, 184, 0.15);
+}
+
+[data-theme="light"] {
+  --text-emphasis: #1e293b;
+  --text: #334155;
+  --text-detail: #64748b;
+  --theme-primary: #0891b2;
+  --bg-gradient-start: #e2e8f0;
+  --bg-gradient-mid: #cbd5e1;
+  --bg-gradient-end: #f1f5f9;
+  --code-bg: rgba(0, 0, 0, 0.07);
+  --album-shadow: #94a3b8;
+  --list-border: rgba(30, 41, 59, 0.12);
+}
 
 html,
 body {
-  // background-image: linear-gradient(
-  //   to top,
-  //   #3ab5b0 0%,
-  //   #3d99be 31%,
-  //   #56317a 100%
-  // );
-
-  // background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-
-  background-color: #762690;
+  background-color: var(--bg-gradient-start);
   background-image: linear-gradient(
     0deg,
-    #762690 0%,
-    #4f2f69 16%,
-    #1e5f8c 100%
+    var(--bg-gradient-start) 0%,
+    var(--bg-gradient-mid) 16%,
+    var(--bg-gradient-end) 100%
   );
 
   height: 100%;
@@ -27,27 +39,27 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  color: @text;
+  color: var(--text);
   font-family: "Iosevka Web", sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
 
 h1 {
-  color: @text-emphasis;
+  color: var(--text-emphasis);
 }
 
 h3 {
-  color: @text-detail;
+  color: var(--text-detail);
 }
 
 a {
   text-decoration: none;
-  color: @text;
+  color: var(--text);
 }
 
 a:hover {
-  color: @theme-primary;
+  color: var(--theme-primary);
 }
 
 .flex-grid {
@@ -81,3 +93,31 @@ a:hover {
 .album-number {
   line-height: 1.2em;
 }
+
+.theme-toggle {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-detail);
+  font-size: 1.2em;
+  padding: 0.3em;
+  line-height: 1;
+  z-index: 100;
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--theme-primary);
+  }
+}
+
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: none; }
+
+[data-theme="dark"] .theme-toggle .icon-sun { display: inline; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+[data-theme="light"] .theme-toggle .icon-sun { display: none; }
+[data-theme="light"] .theme-toggle .icon-moon { display: inline; }
